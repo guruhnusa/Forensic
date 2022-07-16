@@ -117,7 +117,7 @@ Contoh steganografi:
 
   ExifTool adalah program untuk melihat metadata suatu file.
 
-``exiftool -overwrite_original -xmp:Creator=Author "contoh.pdf"``
+``exiftool -overwrite_original Creator=Author "contoh.pdf"``
 
   Digunakan untuk mengedit isi metadata Creator
     
